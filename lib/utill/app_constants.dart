@@ -2,12 +2,12 @@ import 'package:flutter_sixvalley_ecommerce/localization/models/language_model.d
 import 'package:flutter_sixvalley_ecommerce/utill/images.dart';
 
 class AppConstants {
-  static const String appName = '6valley';
-  static const String slogan = 'E-Commerce Marketplace';
+  static const String appName = 'HMV MALL';
+  static const String slogan = 'Your Virtual Shopping Paradise';
   static const String appVersion = '14.8';
 
   // static const String baseUrl = '';
-  static const String baseUrl = 'http://192.168.0.129:8000';
+  static const String baseUrl = 'https://hmvmall.hmvtechgroup.com/';
   static const String userId = 'userId';
   static const String name = 'name';
   static const String categoriesUri = '/api/v1/categories?guest_id=1';

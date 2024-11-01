@@ -48,7 +48,7 @@ class SplashController extends ChangeNotifier {
 
     // if (apiResponse.response != null &&
     // apiResponse.response!.statusCode == 200)
-       
+       print("===ResponceData===> 123");
     if (apiResponse.response != null) {
      
       _configModel = ConfigModel.fromJson(apiResponse.response!.data);
@@ -57,7 +57,7 @@ class SplashController extends ChangeNotifier {
       
       // await FirebaseMessaging.instance
       //     .subscribeToTopic(AppConstants.maintenanceModeTopic);
- print("===ResponceData===> 123");
+ 
       // themeController.setThemeColor(
       //   primaryColor: ColorHelper.hexCodeToColor(_configModel?.primaryColorCode),
       //   secondaryColor: ColorHelper.hexCodeToColor(_configModel?.secondaryColorCode),
